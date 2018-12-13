@@ -22,4 +22,4 @@ flowable:
     app:
       security:
         cookie:
-          domain: ${FLOWABLE_URL:.herokuapp.com}
+          domain: ${FLOWABLE_DOMAIN:localhost}

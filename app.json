@@ -10,7 +10,7 @@
       "description": "Define the default deployment of the multi module project.",
       "value": "-pl flowable-idm"
     },
-    "FLOWABLE_URL": {
+    "FLOWABLE_DOMAIN": {
       "value": "https://digibp-flowable-idm.herokuapp.com/flowable-idm"
     },
     "FLOWABLE_IDM_URL": {
