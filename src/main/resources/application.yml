@@ -13,8 +13,9 @@ spring:
 flowable:
   common:
     app:
-      idm-url: ${FLOWABLE_IDM_URL:http://localhost:8081}
-      idm-redirect-url: ${FLOWABLE_IDM_URL:http://localhost:8081}
+      idm-url: ${FLOWABLE_IDM_URL:http://localhost:8081/flowable-idm}
+      idm-redirect-url: ${FLOWABLE_IDM_URL:http://localhost:8081/flowable-idm}
+      redirect-on-auth-success: ${FLOWABLE_URL:http://localhost:8081/flowable-idm}
   modeler:
     app:
       deployment-api-url: ${FLOWABLE_TASK_API_URL:http://localhost:8082/flowable-task/app-api}

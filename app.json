@@ -6,12 +6,15 @@
       "description": "The path to the default deployment of the multi module project.",
       "value": "flowable-idm"
     },
-    "MAVEN_CUSTOM_OPTS": {
+      "MAVEN_CUSTOM_OPTS": {
       "description": "Define the default deployment of the multi module project.",
       "value": "-pl flowable-idm"
     },
+    "FLOWABLE_URL": {
+      "value": "https://digibp-flowable-idm.herokuapp.com/flowable-idm"
+    },
     "FLOWABLE_IDM_URL": {
-      "value": "https://digibp-flowable-idm.herokuapp.com"
+      "value": "https://digibp-flowable-idm.herokuapp.com/flowable-idm"
     },
     "FLOWABLE_TASK_API_URL": {
       "value": "https://digibp-flowable-task.herokuapp.com/flowable-task/app-api"
