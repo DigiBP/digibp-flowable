@@ -18,8 +18,3 @@ flowable:
   modeler:
     app:
       deployment-api-url: ${FLOWABLE_TASK_API_URL:http://localhost:8082/flowable-task/app-api}
-  idm:
-    app:
-      security:
-        cookie:
-          domain: ${FLOWABLE_DOMAIN:localhost}
