@@ -21,7 +21,7 @@
     <packaging>pom</packaging>
 
     <properties>
-        <flowable.version>6.4.0</flowable.version>
+        <flowable.version>6.5.0</flowable.version>
     </properties>
 
 </project>
